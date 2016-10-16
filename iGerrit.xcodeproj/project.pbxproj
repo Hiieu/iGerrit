@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8F1BA3BD1DA3013B00040DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BA3BC1DA3013B00040DE7 /* AppDelegate.swift */; };
-		8F1BA3BF1DA3013B00040DE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BA3BE1DA3013B00040DE7 /* ViewController.swift */; };
 		8F1BA3C21DA3013B00040DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1BA3C01DA3013B00040DE7 /* Main.storyboard */; };
 		8F1BA3C41DA3013B00040DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1BA3C31DA3013B00040DE7 /* Assets.xcassets */; };
 		8F1BA3C71DA3013B00040DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1BA3C51DA3013B00040DE7 /* LaunchScreen.storyboard */; };
 		8F1BA3D21DA3013B00040DE7 /* iGerritTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BA3D11DA3013B00040DE7 /* iGerritTests.swift */; };
 		8F1BA3DD1DA3013B00040DE7 /* iGerritUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BA3DC1DA3013B00040DE7 /* iGerritUITests.swift */; };
+		8F32DB561DB2DC650064BA72 /* tbvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F32DB551DB2DC650064BA72 /* tbvc.swift */; };
+		8F32DB581DB364C60064BA72 /* cvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F32DB571DB364C60064BA72 /* cvc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		8F1BA3B91DA3013B00040DE7 /* iGerrit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGerrit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1BA3BC1DA3013B00040DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F1BA3BE1DA3013B00040DE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F1BA3C11DA3013B00040DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F1BA3C31DA3013B00040DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F1BA3C61DA3013B00040DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		8F1BA3D81DA3013B00040DE7 /* iGerritUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iGerritUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1BA3DC1DA3013B00040DE7 /* iGerritUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGerritUITests.swift; sourceTree = "<group>"; };
 		8F1BA3DE1DA3013B00040DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F32DB551DB2DC650064BA72 /* tbvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tbvc.swift; sourceTree = "<group>"; };
+		8F32DB571DB364C60064BA72 /* cvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cvc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				8F1BA3BC1DA3013B00040DE7 /* AppDelegate.swift */,
-				8F1BA3BE1DA3013B00040DE7 /* ViewController.swift */,
 				8F1BA3C01DA3013B00040DE7 /* Main.storyboard */,
 				8F1BA3C31DA3013B00040DE7 /* Assets.xcassets */,
 				8F1BA3C51DA3013B00040DE7 /* LaunchScreen.storyboard */,
 				8F1BA3C81DA3013B00040DE7 /* Info.plist */,
+				8F32DB551DB2DC650064BA72 /* tbvc.swift */,
+				8F32DB571DB364C60064BA72 /* cvc.swift */,
 			);
 			path = iGerrit;
 			sourceTree = "<group>";
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1BA3BF1DA3013B00040DE7 /* ViewController.swift in Sources */,
+				8F32DB581DB364C60064BA72 /* cvc.swift in Sources */,
 				8F1BA3BD1DA3013B00040DE7 /* AppDelegate.swift in Sources */,
+				8F32DB561DB2DC650064BA72 /* tbvc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				8F1BA3E31DA3013B00040DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F1BA3E41DA3013B00040DE7 /* Build configuration list for PBXNativeTarget "iGerritTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				8F1BA3E61DA3013B00040DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F1BA3E71DA3013B00040DE7 /* Build configuration list for PBXNativeTarget "iGerritUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				8F1BA3E91DA3013B00040DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
