@@ -1,0 +1,6 @@
+framework module Pods_iGerritUITests {
+  umbrella header "Pods-iGerritUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -45,7 +45,7 @@ class CollectionViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as UICollectionViewCell
         let Label = cell.viewWithTag(1) as! UILabel
-        Label.text = gInstances[indexPath.row]["status"] as! String?
+        Label.text = gInstances[indexPath.row]["subject"] as! String?
         return cell
     }
 }

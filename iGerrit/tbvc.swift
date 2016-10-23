@@ -5,9 +5,10 @@
 //  Created by Hieu Doan on 15/10/2016.
 //  Copyright © 2016 hdoan. All rights reserved.
 //
-
-import Foundation
+ 
 import UIKit
+
+import Alamofire
 
 class TableViewController: UITableViewController {
     
