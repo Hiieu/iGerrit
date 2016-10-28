@@ -7,8 +7,9 @@ target 'iGerrit' do
 
   # Pods for iGerrit
   pod 'Alamofire', '~> 4.0'
-
-
+  pod 'SwiftyJSON',
+  :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git',
+  :branch => 'master'
 
 
   target 'iGerritTests' do

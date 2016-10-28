@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "15435A9E96EDB9815710EE9AE9FA18F5"
-               BuildableName = "Pods_iGerrit.framework"
-               BlueprintName = "Pods-iGerrit"
+               BlueprintIdentifier = "8C33B2D1453D261BC81566F30913F30C"
+               BuildableName = "SwiftyJSON.framework"
+               BlueprintName = "SwiftyJSON"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "15435A9E96EDB9815710EE9AE9FA18F5"
-            BuildableName = "Pods_iGerrit.framework"
-            BlueprintName = "Pods-iGerrit"
+            BlueprintIdentifier = "8C33B2D1453D261BC81566F30913F30C"
+            BuildableName = "SwiftyJSON.framework"
+            BlueprintName = "SwiftyJSON"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

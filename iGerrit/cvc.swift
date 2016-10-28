@@ -7,9 +7,17 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 
 class CollectionViewController: UICollectionViewController {
+    
+    let serverUrl0 = "https://gerrit.bluesoft.net.pl/a/projects/?m=&n=26&type=ALL&d"
+    let loginRequest = [
+        "username" : "hdoan",
+        "password" : "qE8XKcCUEX6l"
+    ]
     
     var gInstances = [[
         "status": "NEW",
@@ -36,6 +44,33 @@ class CollectionViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        Alamofire.request(serverUrl0, method: .get, encoding: JSONEncoding.default)
+            .validate()
+            .authenticate(user: loginRequest["username"]!, password: loginRequest["password"]!)
+            .responseString { response in print(response)
+                //to get status code
+                print("xxx")
+                print(response.data)
+                print("man")
+                if let status = response.response?.statusCode {
+                    switch(status){
+                    case 201:
+                        print("example success")
+                    default:
+                        print("error with response status: \(status)")
+                    }
+                }
+                //to get JSON return value
+                print(123)
+                print(response.result.value)
+                if var result = response.result.value {
+                    result = result.replacingOccurrences(of: ")]}'", with: "")
+                    let jj = JSON(result)
+                    print(jj)
+                    print("jjjjj")
+                }
+            
+        }
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
