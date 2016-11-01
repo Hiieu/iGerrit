@@ -8,7 +8,6 @@
 
 import UIKit
 
-import Alamofire
 
 class TableViewController: UITableViewController {
     
@@ -18,22 +17,13 @@ class TableViewController: UITableViewController {
         "UserName" : "hdoan",
         "Password" : "qE8XKcCUEX6l"
     ]
-    
-    let serverUrl0 = "https://gerrit.bluesoft.net.pl/changes/?q=owner:self%20status:open"
 
     
     override func viewDidLoad() {
         names = ["orange", "white"]
         last_names = ["johnson", "henberg"]
         
-        Alamofire.request(serverUrl0, method: .post, parameters: loginRequest).responseJSON {
-                response in switch response.result {
-                case .success:
-                    print("Validation Successful")
-                case .failure(let error):
-                    print(error)
-            }
-        }
+        GerritResource().callResource(routerMethod: Router.changes(items: nil))
         
     }
     

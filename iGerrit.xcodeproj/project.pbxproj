@@ -16,6 +16,7 @@
 		8F1BA3DD1DA3013B00040DE7 /* iGerritUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BA3DC1DA3013B00040DE7 /* iGerritUITests.swift */; };
 		8F32DB561DB2DC650064BA72 /* tbvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F32DB551DB2DC650064BA72 /* tbvc.swift */; };
 		8F32DB581DB364C60064BA72 /* cvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F32DB571DB364C60064BA72 /* cvc.swift */; };
+		8F537FA01DC3ED6E001A719A /* routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F537F9F1DC3ED6E001A719A /* routing.swift */; };
 		9F0B7917EE29B3C339405274 /* Pods_iGerrit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6EF8A6C8BDC5461B298E2F /* Pods_iGerrit.framework */; };
 		E6553AC088B3EADD75FCF4A9 /* Pods_iGerritTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785220C358F906F99FD9D81E /* Pods_iGerritTests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		8F1BA3DE1DA3013B00040DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F32DB551DB2DC650064BA72 /* tbvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tbvc.swift; sourceTree = "<group>"; };
 		8F32DB571DB364C60064BA72 /* cvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cvc.swift; sourceTree = "<group>"; };
+		8F537F9F1DC3ED6E001A719A /* routing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = routing.swift; sourceTree = "<group>"; };
 		9D26E76385E9F5BE6B643A8A /* Pods-iGerritUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGerritUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iGerritUITests/Pods-iGerritUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA39F59D977F18F596A6B998 /* Pods-iGerrit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGerrit.release.xcconfig"; path = "Pods/Target Support Files/Pods-iGerrit/Pods-iGerrit.release.xcconfig"; sourceTree = "<group>"; };
 		CA6B736110C9E10B0FB6F0D8 /* Pods_iGerritUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGerritUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 				8F1BA3C81DA3013B00040DE7 /* Info.plist */,
 				8F32DB551DB2DC650064BA72 /* tbvc.swift */,
 				8F32DB571DB364C60064BA72 /* cvc.swift */,
+				8F537F9F1DC3ED6E001A719A /* routing.swift */,
 			);
 			path = iGerrit;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F537FA01DC3ED6E001A719A /* routing.swift in Sources */,
 				8F32DB581DB364C60064BA72 /* cvc.swift in Sources */,
 				8F1BA3BD1DA3013B00040DE7 /* AppDelegate.swift in Sources */,
 				8F32DB561DB2DC650064BA72 /* tbvc.swift in Sources */,

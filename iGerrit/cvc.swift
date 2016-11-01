@@ -38,9 +38,6 @@ class CollectionViewController: UICollectionViewController {
         "id": "IKO-SS~master_inteligo~I1954a0b2fc10f442632ef8f54d127182d4297c19",
         "subject": "[RM#23864] DSD - Dopuszczalne Saldo Debetowe"
     ]]
-    var screenSize: CGRect!
-    var screenWidth: CGFloat!
-    var screenHeight: CGFloat!
     
     override func viewDidLoad() {
         super.viewDidLoad()
