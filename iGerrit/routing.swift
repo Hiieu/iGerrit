@@ -63,8 +63,14 @@ class GerritResource: NSObject {
                     //to get status code
                     print(status)
                 }
-                // Convert the response to NSData to handle with SwiftyJSON
-                if let data = (response.result.value! as String).data(using: String.Encoding.utf8) {
+                var result = response.result.value!
+                let GERRIT_PREFIX = ")]}'"
+                if (result.hasPrefix(GERRIT_PREFIX)){
+                    // Remove prefix from response
+                    let startIndex = result.index(result.startIndex, offsetBy: GERRIT_PREFIX.characters.count)
+                    result = result.substring(from: startIndex)
+                }
+                if let data = (result as String).data(using: String.Encoding.utf8) {
                     let ll = JSON(data: data)
                     print(ll)
                 }

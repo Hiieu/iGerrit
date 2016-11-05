@@ -129,38 +129,6 @@
             endingLineNumber = "59"
             landmarkName = "callResource(routerMethod:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iGerrit.callResource (routerMethod : iGerrit.Router) -&gt; ()"
-                  moduleName = "iGerrit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hdoan/Documents/projects/iGerrit/iGerrit/routing.swift"
-                  timestampString = "499901331.977396"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "1020">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iGerrit.(callResource (routerMethod : iGerrit.Router) -&gt; ()).(closure #1)"
-                  moduleName = "iGerrit"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hdoan/Documents/projects/iGerrit/iGerrit/routing.swift"
-                  timestampString = "499901331.979476"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "190">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -378,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iGerrit/routing.swift"
-            timestampString = "499901053.373125"
+            timestampString = "499903202.093834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "callResource(routerMethod:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -406,31 +374,31 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "iGerrit.(callResource (routerMethod : iGerrit.Router) -&gt; ()).(closure #1)"
+                  symbolName = "iGerrit.GerritResource.callResource (routerMethod : iGerrit.Router) -&gt; Any"
                   moduleName = "iGerrit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hdoan/Documents/projects/iGerrit/iGerrit/routing.swift"
-                  timestampString = "499901331.99775"
+                  timestampString = "500045969.153995"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "61"
                   endingLineNumber = "61"
-                  offsetFromSymbolStart = "840">
+                  offsetFromSymbolStart = "1044">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "iGerrit.(callResource (routerMethod : iGerrit.Router) -&gt; ()).(closure #1)"
+                  symbolName = "iGerrit.GerritResource.(callResource (routerMethod : iGerrit.Router) -&gt; Any).(closure #1)"
                   moduleName = "iGerrit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hdoan/Documents/projects/iGerrit/iGerrit/routing.swift"
-                  timestampString = "499901331.999489"
+                  timestampString = "500045969.156257"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "61"
                   endingLineNumber = "61"
-                  offsetFromSymbolStart = "994">
+                  offsetFromSymbolStart = "190">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -442,13 +410,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iGerrit/routing.swift"
-            timestampString = "499901053.373125"
+            timestampString = "499903202.093834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "callResource(routerMethod:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iGerrit.GerritResource.(callResource (routerMethod : iGerrit.Router) -&gt; Any).(closure #1)"
+                  moduleName = "iGerrit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdoan/Documents/projects/iGerrit/iGerrit/routing.swift"
+                  timestampString = "500045969.162155"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "2170">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iGerrit.GerritResource.(callResource (routerMethod : iGerrit.Router) -&gt; Any).(closure #1)"
+                  moduleName = "iGerrit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hdoan/Documents/projects/iGerrit/iGerrit/routing.swift"
+                  timestampString = "500045969.164398"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "2315">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -470,7 +470,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iGerrit/routing.swift"
@@ -486,15 +486,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iGerrit/routing.swift"
-            timestampString = "499901053.373125"
+            timestampString = "499903202.093834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "callResource(routerMethod:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -538,7 +538,7 @@
                   moduleName = "iGerrit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hdoan/Documents/projects/iGerrit/iGerrit/cvc.swift"
-                  timestampString = "499901332.015617"
+                  timestampString = "500045969.191167"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "52"
@@ -553,7 +553,7 @@
                   moduleName = "iGerrit"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hdoan/Documents/projects/iGerrit/iGerrit/cvc.swift"
-                  timestampString = "499901332.01749"
+                  timestampString = "500045969.193075"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "52"
@@ -561,6 +561,54 @@
                   offsetFromSymbolStart = "1588">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGerrit/routing.swift"
+            timestampString = "499902077.904989"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "callResource(routerMethod:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGerrit/routing.swift"
+            timestampString = "499903524.996064"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "callResource(routerMethod:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iGerrit/routing.swift"
+            timestampString = "499903601.8147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "callResource(routerMethod:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
