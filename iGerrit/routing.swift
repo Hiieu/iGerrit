@@ -53,7 +53,7 @@ enum Router: URLRequestConvertible {
 
 
 class GerritResource: NSObject {
-
+    var resp: JSON = [:]
     func callResource(routerMethod: Router) -> Any {
         Alamofire.request(routerMethod)
             .validate()
@@ -71,12 +71,12 @@ class GerritResource: NSObject {
                     result = result.substring(from: startIndex)
                 }
                 if let data = (result as String).data(using: String.Encoding.utf8) {
-                    let ll = JSON(data: data)
-                    print(ll)
+                    self.resp = JSON(data: data)
+                    print("parsed to json")
                 }
                 
         }
-     return "123"
+     return resp
     }
     
 }
